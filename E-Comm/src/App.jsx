@@ -9,15 +9,18 @@ import Cart from './Pages/Cart'
 import Login from './Pages/Login'
 import Placeorder from './Pages/Placeorder'
 import Orders from './Pages/Orders'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
     <div  className='px-4 sm:px-{5vw} md:pc-{7vw} lg:px-{9vw}'>
+       <Navbar />
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/collection' element={<Collection />} />
         <Route path='/about' element={<About />}/>
-        <Route path='/Contact' element={<Contact />}/>
+        <Route path='/contact' element={<Contact />}/>
         <Route path='/product/:productId' element={<Product/>}/>
         <Route path='/cart' element={<Cart />}/>
         <Route path='/login' element={<Login />}/>
