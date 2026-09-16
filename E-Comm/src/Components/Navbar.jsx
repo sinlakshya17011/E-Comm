@@ -66,9 +66,6 @@ const Navbar = () => {
                <NavLink onClick={()=>setVisible(false)} className='px-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
                <NavLink onClick={()=>setVisible(false)} className='px-2 pl-6 border' to='/about'>ABOUT</NavLink>
                <NavLink onClick={()=>setVisible(false)} className='px-2 pl-6 border' to='/contact'>CONTACT</NavLink>
-            
-            
-            
             </div>
         </div>
 
