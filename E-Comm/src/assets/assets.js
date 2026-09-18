@@ -232,7 +232,7 @@ export const products = [
          subCategory: "Topwear",
          sizes: ["M", "L", "XL"],
          date: 1716621345448,
-         bestSeller: true
+         bestSeller: false
     },
     {
         _id: "aaaah",
@@ -244,7 +244,7 @@ export const products = [
          subCategory: "Topwear",
          sizes: ["M", "L", "XL"],
          date: 1716621345448,
-         bestSeller: true
+         bestSeller: false
     },
     {
         _id: "aaaai",
@@ -256,7 +256,7 @@ export const products = [
          subCategory: "Topwear",
          sizes: ["M", "L", "XL"],
          date: 1716621345448,
-         bestSeller: true
+         bestSeller: false
     },
     {
         _id: "aaaaj",
@@ -744,19 +744,8 @@ export const products = [
          name: "Women Round Neck Crop Top",
          description: "A Lightweight, usually knitted, pullover shirt, close fitting with",
          price: 100,
-         image: [p_img50],
-         category: 'Men',
-         subCategory: "Topwear",
-         sizes: ["M", "L", "XL"],
-         date: 1716621345448,
-         bestSeller: true
-    }, {
-        _id: "aaaaq",
-         name: "Women Round Neck Crop Top",
-         description: "A Lightweight, usually knitted, pullover shirt, close fitting with",
-         price: 100,
          image: [p_img51],
-         category: 'Women',
+         category: 'Men',
          subCategory: "Topwear",
          sizes: ["M", "L", "XL"],
          date: 1716621345448,
@@ -767,11 +756,11 @@ export const products = [
          description: "A Lightweight, usually knitted, pullover shirt, close fitting with",
          price: 100,
          image: [p_img52],
-         category: 'Men',
+         category: 'Women',
          subCategory: "Topwear",
          sizes: ["M", "L", "XL"],
          date: 1716621345448,
          bestSeller: true
-    },
+    }
     
 ]
